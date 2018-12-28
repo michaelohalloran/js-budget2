@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Budgety</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="top">
+            <div class="budget">
+                <div class="budget__title">
+                    Available Budget in <span class="budget__title--month">%Month%</span>
+                </div>
+
+                <div class="budget__value">+ 2,345.64</div>
+
+            
+                <div class="budget__income clearfix">
+                    <div class="budget__income--text">Income</div>
+                    <div class="right">
+                        <div class="budget__income--value">+ 4,300.00</div>
+                        <div class="budget__income--percentage">&nbsp;</div>
+                    </div>
+                </div>
+
+                <div class="budget__expenses clearfix">
+                    <div class="budget__expenses--test">Expenses</div>
+                    <div class="right clearfix">
+                        <div class="budget__expenses--value">- 1,954.36</div>
+                        <div class="budget__expenses--percentage">45%</div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- end of top -->
+
+        <div class="bottom">
+            <div class="add">
+                <div class="add__container">
+                    <select class="add__type">
+                        <option value="inc" selected>+</option>
+                        <option value="exp">-</option>
+                    </select>
+                    <input type="text" class="add__description" placeholder="Add description">
+                    <input type="number" class="add__value" placeholder="Value">
+                    <button class="add__btn"><i class="ion-ios-checkmark-outline"></i></button>
+                </div>
+            </div>
+            <!-- end of add -->
+
+
+            <div class="container clearfix">
+                <div class="income">
+                    <h2 class="income__title">Income</h2>
+
+                    <div class="income__list">
+                        <!-- commented out stuff -->
+                        <!-- here -->
+                        <!-- ************** -->
+
+                    </div>
+                </div>
+                <!-- end of income -->
+
+                <div class="expenses">
+                    <h2 class="expenses__title">Expenses</h2>
+
+                    <div class="expenses__list">
+
+                    </div>
+                    <!-- end of expenses list -->
+
+                </div>
+                <!-- end of expenses -->
+
+
+
+
+
+
+            </div>
+            <!-- end of container clearfix -->
+
+
+        </div>
+        <!-- end of bottom -->
+
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
